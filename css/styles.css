@@ -1,0 +1,89 @@
+/* CSS Document */
+
+/* Colors: 
+
+dark gray: #545861
+gray: #9BA2B3
+light gray: #C3CCE0
+dark blue: #374461
+light blue: #919EE6
+*/
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: #C3CCE0;
+}
+
+/* style rules for the header */
+header h1 {
+	display: block;
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2vw;
+}
+
+/* style rules for the introduction */
+
+#intro {
+	color: #374461;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#intro p {
+	text-align: center;
+	font-size: 2.5vw;
+	margin-bottom: 10%;
+}
+
+#intro h1 {
+	font-size: 2.5vw;
+}
+
+/* style rules for the work section */
+
+#work {
+	display: grid;
+	grid-template-columns: 35% 35%;
+	grid-template-areas: 
+		"it1 it1"
+		"it2 it3"
+		"it4 it5";
+	justify-content: center;
+	grid-gap: 100% 5%;
+	text-align: center;
+	font-size: 3vw;
+}
+
+#work h2 {
+	grid-area: it1;
+}
+
+#work h4 a {
+	color: #374461;
+	background-color: #919EE6;
+	padding: 2%;
+	text-decoration: none;
+	border: 5px solid #374461;
+	border-radius: 10px;
+}
+
+#beagles {
+	grid-area: it2;
+}
+
+#nintendo {
+	grid-area: it3;
+}
+
+#ffitness {
+	grid-area: it4;
+}
+
+#xmas {
+	grid-area: it5;
+}
+	
