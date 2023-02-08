@@ -14,33 +14,84 @@ light blue: #919EE6
 	border: 0;
 	padding: 0;
 	background-color: #C3CCE0;
+	color: #374461;
+}
+
+.heading {
+	text-align: center;
+	font-size: 3vw;
+	text-shadow: 10px 10px 10px #545861;
+	border: 5px solid #374461;
+	border-radius: 50px;
+	width: 40%;
+	margin: .6% 30%;
+}
+
+.btn {
+	background-color: #919EE6;
+	padding: 2%;
+	text-decoration: none;
+	border: 5px solid #374461;
+	border-radius: 10px;
+}
+
+.btn:hover {
+	box-shadow: 5px 5px 5px 2px #263350;
+}
+
+section {
+	border-top: 3px solid #545861;
+	padding: 1.5% 0;
+}
+
+.txt {
 }
 
 /* style rules for the header */
 header h1 {
 	display: block;
-	width: 30%;
+	width: 40%;
 	text-align: center;
 	margin: 0 auto;
 	font-size: 2vw;
+	padding: .5%;
+}
+
+header {
+	background-image: url("../images/serverroom.jpg");
+	padding: 5%;
 }
 
 /* style rules for the introduction */
 
 #intro {
-	color: #374461;
 	width: 85%;
-	margin: 0 auto;
+	margin: 5% auto auto;
+	border: 10px solid #374461;
+	border-radius: 20px;
 }
 
 #intro p {
 	text-align: center;
 	font-size: 2.5vw;
-	margin-bottom: 10%;
 }
 
-#intro h1 {
-	font-size: 2.5vw;
+/* style rules for the about me section */
+
+#abtme {
+	margin: 5%;
+	border: 10px solid #374461;
+	border-radius: 20px;
+}
+
+#abtme .btn {
+	font-size: 2vw;
+	margin: 20% 3%;
+	padding:.2%;
+}
+
+#abtme .txt {
+	padding: 0 2%;
 }
 
 /* style rules for the work section */
@@ -53,22 +104,13 @@ header h1 {
 		"it2 it3"
 		"it4 it5";
 	justify-content: center;
-	grid-gap: 100% 5%;
+	grid-gap: 80% 5%;
 	text-align: center;
 	font-size: 3vw;
 }
 
 #work h2 {
 	grid-area: it1;
-}
-
-#work h4 a {
-	color: #374461;
-	background-color: #919EE6;
-	padding: 2%;
-	text-decoration: none;
-	border: 5px solid #374461;
-	border-radius: 10px;
 }
 
 #beagles {
