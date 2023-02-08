@@ -1,0 +1,142 @@
+/* CSS Document */
+
+body, h1, h2, table, ul, li, a, fieldset, th, tr, td, table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: firebrick;
+}
+
+header h1 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	margin-top: 2%;
+	text-align: center;
+	font-size: 4em;
+	color: white;
+}
+
+header img {
+	display: block;
+	width: 80%;
+	margin: 1% auto;
+	border-radius: 5%;
+	/*box-shadow: 0 5px 40px 10px #000;*/
+}
+
+nav li a {
+	text-decoration: none;	
+	color: white;
+	margin: 3%;
+	font-size: 2.2em;
+	border: 4px solid #fff;
+	padding: 1%;
+	border-radius: 10%;
+}
+
+nav li a:hover {
+	background: #dd0000;
+	box-shadow: 4px 4px 10px 5px #222;
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	text-align: center;
+}
+
+.topnav {
+	margin-top: 2%;
+}
+
+.hometable th {
+	font-size: 5em;
+}
+
+.hometable td {
+	font-size: 2em;
+}
+
+.hometable tr {
+	display: block;
+	margin: 3%;
+}
+
+#newstable {
+	margin: 5% auto;
+	color: white;
+	font-size: 4em;
+}
+
+#newstable fieldset {
+	border: 3px solid #fff;
+	margin: 0 10%;
+}
+
+#newstable form {
+	margin: 5%;
+}
+
+#newstable legend {
+	margin-left: 10%;
+}
+
+#newstable img {
+	width: 75%;
+	margin: 0 12%;
+}
+
+#histable {
+	margin-top: 3%;
+	font-size: 1.3em;
+}
+
+#histable img {
+	background-opacity: 0;
+}
+
+#cartable {
+	margin: 3%;
+	font-size: 2.4em;
+}
+
+#cartable td {
+	padding: 0 1%;
+}
+
+#cartable img {
+	width: 100%;
+	border-radius: 10%;
+}
+
+#cartable th {
+	font-size: 3em;
+	text-align: left;
+	padding-left: 3%;
+}
+
+#comtable {
+	margin: 3%;
+}
+
+#comtable th {
+	font-size: 3em;
+	text-align: left;
+	padding-left: 3%;
+	padding-top: 3%;
+}
+
+#comtable td {
+	font-size: 1.4em;
+}
+
+footer p {
+	margin-top: 2%;
+}
+ 
