@@ -25,7 +25,7 @@ body {
 .heading {
 	text-align: center;
 	font-size: 3vw;
-	text-shadow: 10px 10px 10px #545861;
+	box-shadow: 5px 5px 10px #545861;
 	border: 5px solid #374461;
 	border-radius: 50px;
 	width: 50%;
@@ -39,14 +39,14 @@ body {
 	text-decoration: none;
 	border: 5px solid #374461;
 	border-radius: 10px;
+	opacity: .8;
 }
 
 .btn:hover {
-	box-shadow: 5px 5px 5px 2px #263350;
+	opacity: 1;
 }
 
-section {
-	border-top: 3px solid #545861;
+section, nav {
 	padding: 1.5% 0;
 	background-color: #C3CCE0;
 }
@@ -54,6 +54,32 @@ section {
 .txt {
 	text-align: center;
 	font-size: 2.5vw;
+}
+
+/* style rules for nav */
+nav {
+	border-top: 5px solid #374461;
+	border-bottom: 5px solid #374461;
+	width: 100%;
+	margin-top: 2%;
+	font-size: 2.5vw;
+	padding: .3%;
+}
+
+nav li {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	opacity: .8;
+}
+
+nav a:hover {
+	opacity: 1;
 }
 
 /* style rules for the header */
@@ -64,10 +90,6 @@ header h1 {
 	margin: 0 auto;
 	font-size: 2vw;
 	padding: .5%;
-}
-
-header {
-	padding: 5%;
 }
 
 /* style rules for the introduction */
@@ -85,7 +107,7 @@ header {
 	margin: 5%;
 	border: 10px solid #374461;
 	border-radius: 20px;
-	padding-bottom: 14.4%;
+	padding-bottom: 23%;
 }
 
 #abtme .btn {
@@ -101,7 +123,7 @@ header {
 }
 
 #abtme img {
-	width: 30%;
+	width: 36%;
 	float: right;
 }
 
@@ -155,12 +177,12 @@ header {
 	border-radius: 20px;
 	border: 5px solid #374461;
 	background-color: #9BA2B3;
-	opacity: 90%;
+	opacity: .9;
 	position: relative;
 }
 
 #work figure:hover {
-	opacity: 100%;
+	opacity: 1;
 }
 
 #work figcaption {
@@ -168,6 +190,7 @@ header {
 	text-align: center;
 	width: 100%;
 	position: absolute;
+	margin: 1%;
 }
 
 #work a {
