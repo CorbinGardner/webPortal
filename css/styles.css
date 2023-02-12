@@ -13,8 +13,13 @@ light blue: #919EE6
 	margin: 0;
 	border: 0;
 	padding: 0;
-	background-color: #C3CCE0;
 	color: #374461;
+}
+
+body {
+	background-image: url("../images/serverroom.jpg");
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .heading {
@@ -23,8 +28,9 @@ light blue: #919EE6
 	text-shadow: 10px 10px 10px #545861;
 	border: 5px solid #374461;
 	border-radius: 50px;
-	width: 40%;
-	margin: .6% 30%;
+	width: 50%;
+	margin: .6% 25%;
+	background-color: #C3CCE0;
 }
 
 .btn {
@@ -42,9 +48,12 @@ light blue: #919EE6
 section {
 	border-top: 3px solid #545861;
 	padding: 1.5% 0;
+	background-color: #C3CCE0;
 }
 
 .txt {
+	text-align: center;
+	font-size: 2.5vw;
 }
 
 /* style rules for the header */
@@ -58,7 +67,6 @@ header h1 {
 }
 
 header {
-	background-image: url("../images/serverroom.jpg");
 	padding: 5%;
 }
 
@@ -71,32 +79,38 @@ header {
 	border-radius: 20px;
 }
 
-#intro p {
-	text-align: center;
-	font-size: 2.5vw;
-}
-
 /* style rules for the about me section */
 
 #abtme {
 	margin: 5%;
 	border: 10px solid #374461;
 	border-radius: 20px;
+	padding-bottom: 14.4%;
 }
 
 #abtme .btn {
 	font-size: 2vw;
-	margin: 20% 3%;
 	padding:.2%;
+	margin: 2%;
 }
 
 #abtme .txt {
 	padding: 0 2%;
+	width: 60%;
+	float: left;
+}
+
+#abtme img {
+	width: 30%;
+	float: right;
 }
 
 /* style rules for the work section */
 
 #work {
+	border: 10px solid #374461;
+	border-radius: 20px;
+	width: 85%;
 	display: grid;
 	grid-template-columns: 35% 35%;
 	grid-template-areas: 
@@ -104,9 +118,11 @@ header {
 		"it2 it3"
 		"it4 it5";
 	justify-content: center;
-	grid-gap: 80% 5%;
+	grid-gap: 10% 2%;
 	text-align: center;
 	font-size: 3vw;
+	margin: 0 7.5%;
+	padding-bottom: 13%;
 }
 
 #work h2 {
@@ -128,4 +144,38 @@ header {
 #xmas {
 	grid-area: it5;
 }
+
+#work figure img {
+	width: 98%;
+	border-radius: 20px;
+	margin: 1%;
+}
+
+#work figure {
+	border-radius: 20px;
+	border: 5px solid #374461;
+	background-color: #9BA2B3;
+	opacity: 90%;
+	position: relative;
+}
+
+#work figure:hover {
+	opacity: 100%;
+}
+
+#work figcaption {
+	display: block;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#work a {
+	text-decoration: none;
+}
+
+/* style rules for the footer */
 	
+#copyright {
+	text-align: center;
+}
