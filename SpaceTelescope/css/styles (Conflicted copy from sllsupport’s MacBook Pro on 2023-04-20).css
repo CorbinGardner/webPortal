@@ -1,0 +1,49 @@
+/* 
+CSS Document 
+
+#00061F - Dark Blue
+
+#1F0100
+#381211
+#6B0400 - Reds
+#6B2320
+#B80600
+*/
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#cliffs {
+	width: 100%;
+	position: absolute;
+}
+
+#jwebb {
+	position: absolute;
+	width: 40%;
+	margin: 20% 30% 0 30%;
+}
+
+nav {
+	position: absolute;
+	margin: 50% 7%;
+	display: inline;
+	width: 86%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 1%;
+}
+
+nav a {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 1%;
+	color: ;
+	font-size: 2vw;
+	text-align: center;
+}

@@ -1,0 +1,150 @@
+/* CSS Document */
+
+/* 
+font-family: 'Buda', cursive;
+font-family: 'Nanum Pen Script', cursive;
+*/
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../images/wood.jpg");
+	background-size: 100%;
+}
+
+#book_cover {
+	width: 30%;
+	margin: 5% 35%;
+	border-radius: 1vw;
+	box-shadow: 0 0 .2vw .2vw #2E1503;
+	position: absolute;
+}
+
+#book {
+	width: 60%;
+	margin: 5% 20% 0 20%;
+	border-radius: 1vw;
+	box-shadow: 0 .3vw .4vw .2vw #2E1503;
+	position: absolute;
+}
+
+.title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: 'Buda', cursive;
+	color: #33000F;
+	text-shadow: 0 0 2vw #000;
+}
+
+#up_title {
+	margin-top: 11%;
+	font-size: 4vw;
+}
+
+#low_title {
+	margin-top: 22%;
+	font-size: 5.5vw;
+}
+
+#cover_btn {
+	
+	font-size: 3vw;
+	margin: 43% 0 0 46.5%;
+	
+}
+
+.btn {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #613720;
+	font-family: 'Nanum Pen Script', cursive;
+	outline: solid .3vw #613720;
+	background-color: #F2BC6F;
+	border-radius: .4vw;
+	padding: 0 1%;
+}
+
+main * {
+	position: absolute;
+}
+
+#plant {
+	width: 20%;
+	margin: 8.5% 0 0 54.5%;
+	outline: solid .3vw #613720;
+	border-radius: .8vw;
+}
+
+#plant_name {
+	margin: 15% 0 0 21%;
+	width: 30%;
+	text-align: center;
+	font-family: 'Buda', cursive;
+}
+
+#stats {
+	margin: 28% 0 0 62%;
+	font-family: 'Buda', cursive;
+}
+
+#plant_stats {
+	width: 24%;
+	margin: 31% 0 0 53%;
+	text-align: center;
+	font-size: 2vw;
+	font-family: 'Nanum Pen Script', cursive;
+}
+
+.plant_desc {
+	width: 24%;
+	margin: 19% 0 0 24%;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 2vw;
+	text-align: center;
+}
+
+#back {
+	margin-left: 23%;
+	box-shadow: -.1vw .2vw .5vw .5vw #150C07;
+}
+
+#back:active {
+	box-shadow: none;
+	transform: translate(-5%, 5%);
+}
+
+#next:active {
+	box-shadow: none;
+	transform: translate(5%, 5%);
+}
+
+#next {
+	margin-left: 71%;
+	box-shadow: .1vw .2vw .5vw .5vw #150C07;
+}
+
+#back, #next {
+	margin-top: 43%;
+	font-size: 2.5vw;
+}
+
+#close {
+	margin: 50% 0 0 20%;
+	font-size: 2vw;
+	box-shadow: -.1vw .2vw .5vw .5vw #150C07;
+}
+
+#close:active {
+	box-shadow: none;
+	transform: translate(-5%, 5%);
+}
+
+#close:active #x {
+	color:red;
+}

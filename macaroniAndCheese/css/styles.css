@@ -1,0 +1,177 @@
+/* CSS Document 
+
+font-family: 'Nabla', cursive;
+font-family: 'Righteous', cursive;
+
+#E6BB45
+#E0A400
+#AD7F00
+#614F1D
+#614700
+*/
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+
+header {
+	font-family: 'Nabla', cursive;
+	text-align: center;
+	font-size: 2.5vw;
+	width: 100%;
+	margin-bottom: -8%;
+}
+
+nav {
+	margin: 13% 0 0 4%;
+	background-color: #E6BB45;
+	width: 13%;
+	font-family: 'Righteous', cursive;
+	border-radius: .4vw;
+	outline: solid .3vw #614F1D;
+	position: fixed;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	text-align: center;
+	line-spacing: 2vw;
+	padding: 5% 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #614700;
+	font-size: 2vw;
+	transition-duration: .3s;
+}
+
+nav a:hover {
+	font-size: 2.2vw;
+	text-shadow: -.2vw .2vw .2vw #614700;
+}
+
+main {
+	width: 60%;
+	margin: 2% 20%;
+	font-size: 2vw;
+	background-color: #E6BB45;
+	border-radius: .4vw;
+	margin-top: 10%;
+	outline: solid .4vw #614F1D;
+	font-family: 'Righteous', cursive;
+	color: #614700;
+	position: absolute;
+}
+
+main p {
+	width: 90%;
+	margin: 1% 5%;
+	padding: 1%;
+	text-align: center;
+}
+
+main h2 {
+	text-align: center;
+	padding: 1% 0;
+}
+
+table {
+	width: 95%;
+	margin: 0 2.5%;
+}
+
+table img {
+	width: 100%;
+	outline: solid .4vw #614F1D;
+	border-radius: .4vw;
+}
+
+table td {
+	width: 50%;
+}
+
+h3 {
+	text-align: center;
+	outline: solid .4vw #614F1D;
+	margin: 5% 20%;
+	border-radius: 2vw;
+	width: 60%;
+}
+
+.btn {
+	padding: 1% 0;
+	width: 25%;
+	margin: 3% 37.5%;
+	background-color: #E0A400;
+	outline: solid .2vw #614F1D;
+	border-radius: .4vw;
+	font-family: 'Righteous', cursive;
+	color: #614F1D;
+	font-size: 1.6vw;
+}
+
+.btn:hover {
+	box-shadow: -.2vw .15vw .3vw .3vw #614700;
+	transform: scale(101%);
+}
+
+.btn:active {
+	box-shadow: none;
+	transform: scale(100%);
+}
+
+.text_box {
+	font-size: 1.5vw;
+	background-color: #E0A400;
+	outline: solid .2vw #614F1D;
+	border-radius: .4vw;
+	padding: 1%;
+	font-family: 'Righteous', cursive;
+	color: #614F1D;
+	margin: 7% 0;
+}
+
+.sources {
+	text-align: left;
+	
+}
+
+#content p {
+	text-align: left;
+}
+
+#content img {
+	float: right;
+	width: 48%;
+	outline: solid .4vw #614F1D;
+	border-radius: .4vw;
+	margin: 0 2% 2% 2%;
+}
+
+footer {
+ 	position: fixed;
+	width: 13%;
+	margin: 40% 0 0 4%;
+}
+
+footer p {
+	font-family: 'Righteous', cursive;
+	border-radius: .4vw;
+	outline: solid .3vw #614F1D;
+	background-color: #E6BB45;
+	text-align: center;
+	padding: 1%;
+	color: #614700;
+}
